@@ -125,6 +125,9 @@ def insertion_ordonnee(liste, n):
 #####################################################################
 # EXERCICE 8
 #####################################################################
-def fnct(n):
+def racine_carre(n):
     assert n>=0, "Pré condition"
+    a = 0
+    if n < (a+1)**2:
+        a+=1
     assert a >=0 and a**2<=n<(a+1)**22, "Post condition"
